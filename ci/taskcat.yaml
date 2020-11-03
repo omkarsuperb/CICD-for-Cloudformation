@@ -1,0 +1,11 @@
+global:
+  owner: omkar.superb@gmail.com
+  qsname: CICD-for-Cloudformation
+  region:
+    - us-east-2
+tests:
+  test-us-east-2:
+    regions:
+      - us-east-2
+    template_file: instance-scheduler.yaml
+	  
