@@ -140,7 +140,6 @@ Parameters:
     - '400'
     - '545'
     - '731'
-    - '1827'
     Description: Retention days for scheduler logs.
   Trace:
     Type: String
